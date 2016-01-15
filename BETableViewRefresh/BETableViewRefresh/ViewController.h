@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "BETableViewRefresh.h"
+#import "BECoreData.h"
+#import "BEAFNetworking.h"
+#import "UIImageView+AFNetworking.h";
+#import "BEPerson.h"
 
 @interface ViewController : UIViewController<BETableViewRefreshDelegate>
 

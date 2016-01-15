@@ -22,6 +22,16 @@
 		C446365A1C43999A005640D1 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C44636561C43999A005640D1 /* 3.jpg */; };
 		C446365B1C43999A005640D1 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C44636571C43999A005640D1 /* 4.jpg */; };
 		C446365E1C439F18005640D1 /* BELoadMoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = C446365D1C439F18005640D1 /* BELoadMoreView.m */; };
+		C47D82C61C462F4D00C8BE11 /* BEAFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = C47D82C51C462F4D00C8BE11 /* BEAFNetworking.m */; };
+		C47D82CA1C477D3A00C8BE11 /* BEPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = C47D82C91C477D3A00C8BE11 /* BEPerson.m */; };
+		C47D82CD1C47962700C8BE11 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = C47D82CC1C47962700C8BE11 /* Reachability.m */; };
+		C4D8FF851C45F17E006CEFDD /* BECoredata.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4D8FF831C45F17E006CEFDD /* BECoredata.xcdatamodeld */; };
+		C4D8FF8E1C45F20D006CEFDD /* Person+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D8FF871C45F20D006CEFDD /* Person+CoreDataProperties.m */; };
+		C4D8FF8F1C45F20D006CEFDD /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D8FF891C45F20D006CEFDD /* Person.m */; };
+		C4D8FF901C45F20D006CEFDD /* Score+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D8FF8B1C45F20D006CEFDD /* Score+CoreDataProperties.m */; };
+		C4D8FF911C45F20D006CEFDD /* Score.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D8FF8D1C45F20D006CEFDD /* Score.m */; };
+		C4D8FF941C45F24E006CEFDD /* BECoreData.m in Sources */ = {isa = PBXBuildFile; fileRef = C4D8FF931C45F24E006CEFDD /* BECoreData.m */; };
+		FFE3D0E0E3774052B299A1FB /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD8DE5CD732EF7BF9F6858D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +52,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		107B90B3C43471EC403571D2 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		1FD8DE5CD732EF7BF9F6858D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44636151C43548C005640D1 /* BETableViewRefresh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BETableViewRefresh.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C44636191C43548C005640D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C446361B1C43548C005640D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,6 +80,25 @@
 		C44636571C43999A005640D1 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
 		C446365C1C439F18005640D1 /* BELoadMoreView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BELoadMoreView.h; sourceTree = "<group>"; };
 		C446365D1C439F18005640D1 /* BELoadMoreView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BELoadMoreView.m; sourceTree = "<group>"; };
+		C47D82C41C462F4D00C8BE11 /* BEAFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEAFNetworking.h; sourceTree = "<group>"; };
+		C47D82C51C462F4D00C8BE11 /* BEAFNetworking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEAFNetworking.m; sourceTree = "<group>"; };
+		C47D82C81C477D3A00C8BE11 /* BEPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BEPerson.h; sourceTree = "<group>"; };
+		C47D82C91C477D3A00C8BE11 /* BEPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BEPerson.m; sourceTree = "<group>"; };
+		C47D82CB1C47962700C8BE11 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		C47D82CC1C47962700C8BE11 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		C4D8FF841C45F17E006CEFDD /* BECoredata.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BECoredata.xcdatamodel; sourceTree = "<group>"; };
+		C4D8FF861C45F20D006CEFDD /* Person+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Person+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C4D8FF871C45F20D006CEFDD /* Person+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Person+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C4D8FF881C45F20D006CEFDD /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		C4D8FF891C45F20D006CEFDD /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		C4D8FF8A1C45F20D006CEFDD /* Score+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Score+CoreDataProperties.h"; sourceTree = "<group>"; };
+		C4D8FF8B1C45F20D006CEFDD /* Score+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Score+CoreDataProperties.m"; sourceTree = "<group>"; };
+		C4D8FF8C1C45F20D006CEFDD /* Score.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Score.h; sourceTree = "<group>"; };
+		C4D8FF8D1C45F20D006CEFDD /* Score.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Score.m; sourceTree = "<group>"; };
+		C4D8FF921C45F24E006CEFDD /* BECoreData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BECoreData.h; sourceTree = "<group>"; };
+		C4D8FF931C45F24E006CEFDD /* BECoreData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BECoreData.m; sourceTree = "<group>"; };
+		C4D8FF951C45FD43006CEFDD /* BECoredata 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "BECoredata 2.xcdatamodel"; sourceTree = "<group>"; };
+		ED79060E3C56669B9DEF726A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "../Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FFE3D0E0E3774052B299A1FB /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +127,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57150A8CCF609E2B48751875 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FD8DE5CD732EF7BF9F6858D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C446360C1C43548C005640D1 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +142,8 @@
 				C44636311C43548D005640D1 /* BETableViewRefreshTests */,
 				C446363C1C43548D005640D1 /* BETableViewRefreshUITests */,
 				C44636161C43548C005640D1 /* Products */,
+				EC674ABD7A3DB0CAAFB43151 /* Pods */,
+				57150A8CCF609E2B48751875 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -118,6 +160,9 @@
 		C44636171C43548C005640D1 /* BETableViewRefresh */ = {
 			isa = PBXGroup;
 			children = (
+				C47D82C71C477D2000C8BE11 /* BETestClass */,
+				C47D82C31C46192900C8BE11 /* BEAFN */,
+				C4D8FF821C45F156006CEFDD /* BECoredata */,
 				C446364B1C437535005640D1 /* BETableView */,
 				C446361B1C43548C005640D1 /* AppDelegate.h */,
 				C446361C1C43548C005640D1 /* AppDelegate.m */,
@@ -175,6 +220,53 @@
 			name = BETableView;
 			sourceTree = "<group>";
 		};
+		C47D82C31C46192900C8BE11 /* BEAFN */ = {
+			isa = PBXGroup;
+			children = (
+				C47D82CB1C47962700C8BE11 /* Reachability.h */,
+				C47D82CC1C47962700C8BE11 /* Reachability.m */,
+				C47D82C41C462F4D00C8BE11 /* BEAFNetworking.h */,
+				C47D82C51C462F4D00C8BE11 /* BEAFNetworking.m */,
+			);
+			name = BEAFN;
+			sourceTree = "<group>";
+		};
+		C47D82C71C477D2000C8BE11 /* BETestClass */ = {
+			isa = PBXGroup;
+			children = (
+				C47D82C81C477D3A00C8BE11 /* BEPerson.h */,
+				C47D82C91C477D3A00C8BE11 /* BEPerson.m */,
+			);
+			name = BETestClass;
+			sourceTree = "<group>";
+		};
+		C4D8FF821C45F156006CEFDD /* BECoredata */ = {
+			isa = PBXGroup;
+			children = (
+				C4D8FF921C45F24E006CEFDD /* BECoreData.h */,
+				C4D8FF931C45F24E006CEFDD /* BECoreData.m */,
+				C4D8FF861C45F20D006CEFDD /* Person+CoreDataProperties.h */,
+				C4D8FF871C45F20D006CEFDD /* Person+CoreDataProperties.m */,
+				C4D8FF881C45F20D006CEFDD /* Person.h */,
+				C4D8FF891C45F20D006CEFDD /* Person.m */,
+				C4D8FF8A1C45F20D006CEFDD /* Score+CoreDataProperties.h */,
+				C4D8FF8B1C45F20D006CEFDD /* Score+CoreDataProperties.m */,
+				C4D8FF8C1C45F20D006CEFDD /* Score.h */,
+				C4D8FF8D1C45F20D006CEFDD /* Score.m */,
+				C4D8FF831C45F17E006CEFDD /* BECoredata.xcdatamodeld */,
+			);
+			name = BECoredata;
+			sourceTree = "<group>";
+		};
+		EC674ABD7A3DB0CAAFB43151 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				107B90B3C43471EC403571D2 /* Pods.debug.xcconfig */,
+				ED79060E3C56669B9DEF726A /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -182,9 +274,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C44636421C43548D005640D1 /* Build configuration list for PBXNativeTarget "BETableViewRefresh" */;
 			buildPhases = (
+				2FD06F2AD25548838A295E5F /* Check Pods Manifest.lock */,
 				C44636111C43548C005640D1 /* Sources */,
 				C44636121C43548C005640D1 /* Frameworks */,
 				C44636131C43548C005640D1 /* Resources */,
+				C5DF8D8A597B6E8D790B8D0D /* Embed Pods Frameworks */,
+				ADE6DFA79BF2DA44167FDE3F /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -242,7 +337,7 @@
 				TargetAttributes = {
 					C44636141C43548C005640D1 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = N9B7D382S4;
+						DevelopmentTeam = 2AHKDU2ECU;
 					};
 					C446362D1C43548D005640D1 = {
 						CreatedOnToolsVersion = 7.1;
@@ -305,17 +400,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2FD06F2AD25548838A295E5F /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		ADE6DFA79BF2DA44167FDE3F /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C5DF8D8A597B6E8D790B8D0D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C44636111C43548C005640D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4D8FF8E1C45F20D006CEFDD /* Person+CoreDataProperties.m in Sources */,
+				C4D8FF941C45F24E006CEFDD /* BECoreData.m in Sources */,
+				C47D82C61C462F4D00C8BE11 /* BEAFNetworking.m in Sources */,
 				C446364E1C437556005640D1 /* BETableViewRefresh.m in Sources */,
+				C47D82CD1C47962700C8BE11 /* Reachability.m in Sources */,
 				C44636201C43548C005640D1 /* ViewController.m in Sources */,
 				C446365E1C439F18005640D1 /* BELoadMoreView.m in Sources */,
+				C4D8FF911C45F20D006CEFDD /* Score.m in Sources */,
 				C44636511C4388A5005640D1 /* BERefreshHeaderView.m in Sources */,
 				C446361D1C43548C005640D1 /* AppDelegate.m in Sources */,
+				C4D8FF901C45F20D006CEFDD /* Score+CoreDataProperties.m in Sources */,
+				C4D8FF8F1C45F20D006CEFDD /* Person.m in Sources */,
+				C47D82CA1C477D3A00C8BE11 /* BEPerson.m in Sources */,
 				C446361A1C43548C005640D1 /* main.m in Sources */,
+				C4D8FF851C45F17E006CEFDD /* BECoredata.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -454,6 +606,7 @@
 		};
 		C44636431C43548D005640D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 107B90B3C43471EC403571D2 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -468,6 +621,7 @@
 		};
 		C44636441C43548D005640D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED79060E3C56669B9DEF726A /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -547,6 +701,7 @@
 				C44636441C43548D005640D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C44636451C43548D005640D1 /* Build configuration list for PBXNativeTarget "BETableViewRefreshTests" */ = {
 			isa = XCConfigurationList;
@@ -555,6 +710,7 @@
 				C44636471C43548D005640D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C44636481C43548D005640D1 /* Build configuration list for PBXNativeTarget "BETableViewRefreshUITests" */ = {
 			isa = XCConfigurationList;
@@ -563,8 +719,23 @@
 				C446364A1C43548D005640D1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		C4D8FF831C45F17E006CEFDD /* BECoredata.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C4D8FF951C45FD43006CEFDD /* BECoredata 2.xcdatamodel */,
+				C4D8FF841C45F17E006CEFDD /* BECoredata.xcdatamodel */,
+			);
+			currentVersion = C4D8FF951C45FD43006CEFDD /* BECoredata 2.xcdatamodel */;
+			path = BECoredata.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C446360D1C43548C005640D1 /* Project object */;
 }

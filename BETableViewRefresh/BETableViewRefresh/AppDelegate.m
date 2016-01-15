@@ -7,8 +7,16 @@
 //
 
 #import "AppDelegate.h"
+#import "Reachability.h"
 
-@interface AppDelegate ()
+@interface AppDelegate()
+{
+    @private Reachability *hostReach;
+}
+
+- (void) reachabilityChanged: (NSNotification* )note;//网络连接改变
+
+- (void) updateInterfaceWithReachability: (Reachability*) curReach;//处理连接改变后的情况
 
 @end
 
@@ -17,6 +25,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //开启网络状况的监听
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(reachabilityChanged:) name: kReachabilityChangedNotification object: nil];
+    
+    hostReach = [Reachability reachabilityWithHostName:@"www.apple.com"] ;//可以以多种形式初始化
+    [hostReach startNotifier];  //开始监听,会启动一个run loop
+    
+    [self updateInterfaceWithReachability: hostReach];
+ 
     return YES;
 }
 
@@ -41,5 +57,42 @@
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
+
+//监听到网络状态改变
+- (void) reachabilityChanged: (NSNotification* )note
+
+{
+    
+    Reachability* curReach = [note object];
+    
+    NSParameterAssert([curReach isKindOfClass: [Reachability class]]);
+    
+    [self updateInterfaceWithReachability: curReach];
+    
+}
+
+
+
+//处理连接改变后的情况
+- (void) updateInterfaceWithReachability: (Reachability*) curReach
+{
+    //对连接改变做出响应的处理动作。
+    NetworkStatus status = [curReach currentReachabilityStatus];
+    
+    if(status == ReachableViaWWAN)
+    {
+        printf("\n3g/2G\n");
+    }
+    else if(status == ReachableViaWiFi)
+    {
+        printf("\nwifi\n");
+    }else
+    {
+        printf("\n无网络\n");
+    }
+    
+}
+
+
 
 @end
